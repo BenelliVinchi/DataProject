@@ -1,0 +1,94 @@
+nav>{color:gold}
+
+
+
+    body {
+        font-family: 'Helvetica', sans-serif;
+        margin: 20px;
+        background-color: #3d10dc;
+    }
+    
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #4a4545;
+        color: #fff;
+    }
+    
+    h1 {color: #6220dc;
+        margin: 0;
+    }
+    
+    section {
+        background-color: #f6efef;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(14, 1, 1, 0.1);
+        margin: 20px 0;
+        padding: 20px;
+    }
+    
+    h2 {
+        color: #5a379c;
+    }
+    
+    p {
+        line-height: 1.6;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 8px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+
+
+/* styleweb.css */
+
+/* Adding styles for the "Favorites" section */
+section ul.favorites {
+    list-style: none;
+    padding: 0;
+}
+
+section ul.favorites li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+section ul.favorites li span {
+    font-weight: bold;
+}
+
+section ul.favorites li.gold {
+    color: #ffd700; /* Gold */
+}
+
+section ul.favorites li.silver {
+    color: #c0c0c0; /* Silver */
+}
+
+section ul.favorites li.bronze {
+    color: #cd7f32; /* Bronze */
+}
+
+section ul.favorites li.gold:before {
+    content: "G. ";
+}
+
+section ul.favorites li.silver:before {
+    content: "S. ";
+}
+
+section ul.favorites li.bronze:before {
+    content: "B. ";
+}
